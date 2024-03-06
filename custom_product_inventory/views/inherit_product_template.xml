@@ -1,0 +1,12 @@
+<odoo>
+  <data>
+
+      <record id="menu_inventory_product_template" model="ir.ui.menu">
+            <field name="name">Products</field>
+            <field name="sequence" eval="-1" />
+            <field name="action" ref="stock.product_template_action_product" />
+            <field name="parent_id" ref="stock.menu_stock_root" />
+        </record>
+
+  </data>
+</odoo>
